@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0F72A576-3A37-45B6-9A71-38962F493936}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AepfelUndBirnen</RootNamespace>
+    <AssemblyName>AepfelUndBirnen</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\AepfelUndBirnen.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArgsProcessor.cs" />
+    <Compile Include="Demo\11a_Art_KulturApfel.cs" />
+    <Compile Include="Demo\11b_Art_KulturBirne.cs" />
+    <Compile Include="Demo\Demo.cs" />
+    <Compile Include="Demo\10a_Gattung_Apfel.cs" />
+    <Compile Include="Demo\10b_Gattung_Birne.cs" />
+    <Compile Include="Demo\12aa_Sorte_GoldenDelicious.cs" />
+    <Compile Include="Demo\12ab_Sorte_GrannySmith.cs" />
+    <Compile Include="Demo\12ba_Sorte_WilliamsChrist.cs" />
+    <Compile Include="Demo\Interfaces.cs" />
+    <Compile Include="FileProcessor.cs" />
+    <Compile Include="HierarchyPrinter.cs" />
+    <Compile Include="Output.cs" />
+    <Compile Include="TypeEqualityComparer.cs" />
+    <Compile Include="TypeHierarchy.cs" />
+    <Compile Include="TypeInfo.cs" />
+    <Compile Include="Demo\01_Reich_Embryophyta.cs" />
+    <Compile Include="Demo\02_Abteilung_Tracheophyta.cs" />
+    <Compile Include="Demo\03_Unterabteilung_Spermatophytina.cs" />
+    <Compile Include="Demo\04_Klasse_Magnoliopsida.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Demo\08_Tribus_Pyreae.cs" />
+    <Compile Include="Demo\09_Untertribus_Pyrinae.cs" />
+    <Compile Include="Demo\06_Familie_Rosaceae.cs" />
+    <Compile Include="Demo\05_Ordnung_Rosales.cs" />
+    <Compile Include="Demo\07_Unterfamilie_Spiraeoideae.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
