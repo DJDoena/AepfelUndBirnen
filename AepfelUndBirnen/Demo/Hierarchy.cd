@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AepfelUndBirnen.Gattung_Birne" Collapsed="true">
+    <Position X="0.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo\10b_Gattung_Birne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AepfelUndBirnen.Reich_Embryophyta" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo\01_Reich_Embryophyta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AepfelUndBirnen.Abteilung_Tracheophyta" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo\02_Abteilung_Tracheophyta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AepfelUndBirnen.Unterabteilung_Spermatophytina" Collapsed="true">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo\03_Unterabteilung_Spermatophytina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AepfelUndBirnen.Klasse_Magnoliopsida" Collapsed="true">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo\04_Klasse_Magnoliopsida.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AepfelUndBirnen.Ordnung_Rosales" Collapsed="true">
+    <Position X="1.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo\05_Ordnung_Rosales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AepfelUndBirnen.Familie_Rosaceae" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo\06_Familie_Rosaceae.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AepfelUndBirnen.Unterfamilie_Spiraeoideae" Collapsed="true">
+    <Position X="1.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo\07_Unterfamilie_Spiraeoideae.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AepfelUndBirnen.Tribus_Pyreae" Collapsed="true">
+    <Position X="1.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo\08_Tribus_Pyreae.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AepfelUndBirnen.Untertribus_Pyrinae" Collapsed="true">
+    <Position X="1.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo\09_Untertribus_Pyrinae.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AepfelUndBirnen.Gattung_Apfel" Collapsed="true">
+    <Position X="2.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo\10a_Gattung_Apfel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

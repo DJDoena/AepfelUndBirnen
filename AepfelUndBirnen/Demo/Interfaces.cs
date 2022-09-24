@@ -3,19 +3,24 @@
 namespace AepfelUndBirnen
 {
     internal interface IA
-    { }
+    {
+    }
 
     internal interface IB : IA
-    { }
+    {
+    }
 
     internal interface IC
-    { }
+    {
+    }
 
     internal interface ID : IB, IC
-    { }
+    {
+    }
 
     internal interface IE : ID, IA
-    { }
+    {
+    }
 
     internal abstract class InterfaceBase : IE, IA, IServiceProvider
     {
@@ -24,9 +29,6 @@ namespace AepfelUndBirnen
 
     internal sealed class InterfaceImpl : InterfaceBase
     {
-        public override object GetService(Type serviceType)
-        {
-            return null;
-        }
+        public override object GetService(Type serviceType) => null;
     }
 }
